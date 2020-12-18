@@ -1,0 +1,27 @@
+{
+  "name": "tracc-webhooks",
+  "version": "1.0.0",
+  "description": "A fork of tracc that uses webhooks instead of standard messages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd src; node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honkling/tracc-webhooks.git"
+  },
+  "keywords": [],
+  "author": "Goose#1832",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/honkling/tracc-webhooks/issues"
+  },
+  "homepage": "https://github.com/honkling/tracc-webhooks#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "discord.js-commando": "github:discordjs/Commando",
+    "dotenv": "^8.2.0",
+    "mineflayer": "^2.37.1"
+  }
+}
